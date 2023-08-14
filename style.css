@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400&display=swap');
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -15,17 +14,40 @@
 }
 
 body {
-    background-color: rgb(26, 4, 51);
-    color: white;
+    background-color: #F7C9B6;
+    color: #877785;
     font-family: Montserrat;
 }
 
+.section {
+    padding: 2rem 0 4rem;
+    margin-bottom: 40px;
+}
+  
+.section__title {
+    font-size: 1.5rem;
+}
+
+.section__subtitle {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.section__title,
+.section__subtitle {
+    text-align: center;
+}
+
+.name {
+    color: white;
+}
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: rgb(42, 11, 115);
+    background-color: #C59894;
 
 }
 .name {
@@ -47,23 +69,28 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: purple;
+    color: #877785;
+    font-size: 1.02rem;
 }
 
 .open_first{
     display:flex;
     justify-content: space-around;
-    margin: 23px 0;
+    margin-top: 80px;
+    margin-bottom: 23vh;
+    margin-left: 0;
+    margin-right: 0;
     align-items: center;
 }
 
 .open_first > div{
     width:30%;
+    padding-bottom: 5%;
 }
 
 .leftSection{
-    width: 34px;
-    font-size: 2.4rem;
+    width: 50px;
+    font-size: 2.8rem;
     margin: 0 0;
 }
 
@@ -74,5 +101,53 @@ nav ul li a:hover {
 }
 
 .bright-blue {
-    color: rgb(106, 108, 235);
+    color: white;
 }
+
+#element{
+    color: white;
+}
+
+
+.main_hr{
+    display: flex;
+    color: white;
+    height: 2px;
+    background: #fbb9c3;
+    border: 0;
+    background-color: #b48383;
+    margin: 60px 84px;
+    
+}
+
+.about__description {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  .about__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2.5rem;
+  }
+  
+  .about__info-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .about__info-name {
+    font-size: 0.813rem;
+  }
+  
+  .about__info-title,
+  .about__info-name {
+    display: block;
+    text-align: center;
+  }
+  
+  .about__buttons {
+    display: flex;
+    justify-content: center;
+  }
