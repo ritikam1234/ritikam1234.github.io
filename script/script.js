@@ -1,8 +1,15 @@
-
-/* Typed JS for intorduction animtion*/
-import Typed from "https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js";
-
-var typed = new Typed('#element', {
-    strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-    typeSpeed: 50,
-});
+const swiper = new swiper('.swiper', {
+    // Optional parameters
+    cssMode: true,
+    loop: true,
+    centeredSlides: true,
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+  });

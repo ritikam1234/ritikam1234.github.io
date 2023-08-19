@@ -9,6 +9,7 @@
         <!--_________________________CSS_________________________-->
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="images/.jpg">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
@@ -17,13 +18,13 @@
             <header class="header">
 
                 <nav class = "navbar">
-                    <div class="name"> Ritika's Portfolio </div>
+                    <div class="name"> Ritika Mehta </div>
                     <div class="nav__menu" id="nav-menu">
                         <ul class="nav__list">
                             <li class="nav__item"><a href=#header>Home</a></li>
-                            <li class="nav__item"><a href=#main_hr>About</a></li>
-                            <li class="nav__item"><a href="/">Projects</a></li>
-                            <li class="nav__item"><a href="/">Experience</a></li>
+                            <li class="nav__item"><a href=#about>About</a></li>
+                            <li class="nav__item"><a href="#project">Projects</a></li>
+                            <li class="nav__item"><a href="#experience">Experience</a></li>
                             <li class="nav__item"><a href="/">Contact</a></li>
                         </ul>
                     </div>
@@ -61,7 +62,7 @@
                     
                         <div class="about__info">
                             <div>
-                                <span class="about__info-title">03+</span>
+                                <span class="about__info-title">02+</span>
                                 <span class="about__info-name">Years <br> experience</span>
                             </div>
                             <div>
@@ -75,13 +76,103 @@
                         </div>
                         <div class="about__buttons">
                             <a download="" href="" class="button button--flex">
-                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                                Download Resume<i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
+        
+            <!--==================== PROJECTS ====================-->
+
+            <section class="project section" id="project">
+
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Most recent works</span>
+
+                <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+
+                        <!--PROJECT 1-->
+                        <div class="swiper-slide">
+                            <img src="./images/coder_img.png" alt="" class="portfolio__img">
+                            <div class="portfolio_">
+                                <h3 class="portfolio__title">Grocery Store App</h3>
+                                <p class="portfolio__description">INFO.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+            
+                            </div>
+                        </div>
+
+                        <!--PROJECT 2-->
+                        <div class="swiper-slide">
+                            <div class="portfolio_">
+                                <h3 class="portfolio__title">AI Robo-Therapist</h3>
+                                <p class="portfolio__description">INFO.</p>
+                            </div>
+                        </div>
+
+                        <!--PROJECT 3-->
+                        <div class="swiper-slide">
+                            <div class="portfolio_">
+                                <h3 class="portfolio__title">Langchain GPT-3 Clone</h3>
+                                <p class="portfolio__description">INFO.</p>
+                            </div>
+                        </div>
+                        ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </section>
+            
+            <!--==================== EXPERIENCE ====================-->
+    <section id="experience" class="experience">
+        <h3 class="experience-title">Experience</h3>
+        <div class="container">
+  
+          <!-- Latest Experience -->
+          <div class="card">
+            <h3 class="title-role">AI & ML Intern, Stratifi</h3>
+              <div class="card-content">
+              <ul>
+                <li>
+                  Developed and managed the backend of an e-commerce platform using Flask, MongoDB, and AWS.
+                </li>
+                <li>
+                  Worked on three web applications targeting customers, selling vendors, and admin users; built 50+ RESTful APIs with functionalities
+  such as login/sign up, view a product, add a product to cart, checkout the order, etc.
+                </li>
+                <li>Improved the response time by 20% by refactoring the codebase and changing database design and queries.</li>
+                <li>Added a bulk upload feature which reduced the manual work of adding products into a database.</li>
+                <li>
+                  <b>Tools:</b> Python, Langchain, MongoDB
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+                <span>July 2020 - Nov 2020 | Hyderabad, India</span>
+            </div>
+          </div>
+        
+        </div>
+
+      </section>
         </main>
+        <!--==================== TYPED JS ====================-->
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         <script>
             var typed = new Typed('#element', {
@@ -90,6 +181,36 @@
               loop: true,
             });
           </script>
+          <!--==================== SWIPER JS ====================-->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+          <script>
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // And if we need scrollbar
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                    clickable: true,
+                },
+                });
+          </script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="./script/script.js"></script>
     </body>
 
     <footer>
