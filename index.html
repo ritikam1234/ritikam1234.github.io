@@ -25,7 +25,7 @@
                             <li class="nav__item"><a href=#about>About</a></li>
                             <li class="nav__item"><a href="#project">Projects</a></li>
                             <li class="nav__item"><a href="#experience">Experience</a></li>
-                            <li class="nav__item"><a href="/">Contact</a></li>
+                            <li class="nav__item"><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -40,7 +40,7 @@
                     <span id="element"></span>
                 </div>
                 <div class="rightSection">
-                    <img src="images/coder_img.png">
+                    <img src="images/Profile_pic.png">
                 </div>
             </section>
             
@@ -55,28 +55,25 @@
 
                     <div class="about__data">
                         <p class="about__description">
-                            Data analyst, with extensive knowledge and years of experience, 
-                            working in Digital banking technologies and other data analitical tools, 
-                            delivering quality work.
+                            Pursuing a Computational Neuroscience Major and a Computer Science Minor at Carnegie Mellon University<br><br>
+                            Passionate about application & development of AI<br><br>
+                            Girls Who Code, Activity Committee
+
                         </p>
                     
                         <div class="about__info">
                             <div>
-                                <span class="about__info-title">02+</span>
-                                <span class="about__info-name">Years <br> experience</span>
+                                <span class="about__info-title">Languages</span>
+                                <span class="about__info-name">Python, C, HTML/CSS, LaTeX</span>
                             </div>
                             <div>
-                                <span class="about__info-title">05+</span>
-                                <span class="about__info-name">Completed <br> certifications</span>
-                            </div>
-                            <div>
-                                <span class="about__info-title">02+</span>
-                                <span class="about__info-name">companies<br>worked</span>
+                                <span class="about__info-title">Frameworks</span>
+                                <span class="about__info-name">NumPy, OpenCV, Pandas, LangChain</span>
                             </div>
                         </div>
                         <div class="about__buttons">
                             <a download="" href="" class="button button--flex">
-                                Download Resume<i class="uil uil-download-alt button__icon"></i>
+                                Resume<i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -85,7 +82,7 @@
         
             <!--==================== PROJECTS ====================-->
 
-            <section class="project section" id="project">
+            <section class="project__section" id="project">
 
                 <h2 class="section__title">Projects</h2>
                 <span class="section__subtitle">Most recent works</span>
@@ -98,12 +95,17 @@
 
                         <!--PROJECT 1-->
                         <div class="swiper-slide">
-                            <img src="./images/coder_img.png" alt="" class="portfolio__img">
+                            <img src="./images/grocer_greg.png" alt="" class="portfolio__img">
                             <div class="portfolio_">
                                 <h3 class="portfolio__title">Grocery Store App</h3>
-                                <p class="portfolio__description">INFO.</p>
-                                <a href="#" class="button button--flex button--small portfolio__button">
-                                    Demo
+                                <p class="section__subtitle">Enaible Summer Research Porject 2023</p>
+                                <p class="portfolio__description">Conducted comprehensive background research, consumer interviews, and idea generation to develop a grocery store app concept focused on enhancing the in-shopping experience
+                                    <br><br>Utilized Figma to prototype grocery store app extension, "Grocer Greg," a personal AI assistant housed in 'store mode' that provides live notifications and personalized recommendations to users
+                                    <br><br>Demonstrated strong teamwork, research, and design skills throughout the program and successfully pitched the final idea in a webinar to a broad audience of industry professionals
+                                    </p>
+                                
+                                <a href="https://www.figma.com/proto/6KesfqByC5p8oj3fsO0sAD/Prototype?type=design&node-id=175-2&viewport=207%2C-63%2C0.22&t=do85VDtzQvt37Occ-1&scaling=scale-down&starting-point-node-id=18%3A116&show-proto-sidebar=1&mode=design" class="button button--flex button--small portfolio__button">
+                                    View Prototype
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
             
@@ -113,22 +115,53 @@
                         <!--PROJECT 2-->
                         <div class="swiper-slide">
                             <div class="portfolio_">
+                                <img src="./images/cozmo.jpg" alt="" class="portfolio__img" width="200px" height="220px">
                                 <h3 class="portfolio__title">AI Robo-Therapist</h3>
-                                <p class="portfolio__description">INFO.</p>
+                                <p class="section__subtitle">Cognitive Robotics Project Spring 2023</p>
+                                <div class="portfolio__description">
+                                    <p class="portfolio_text">Built an AI Cozmo Robo-therapist using GPT 3.5 and the Cozmo SDK</p>
+                                    <p class="portfolio_text">Utilized prompt engineering techniques to implement sentiment analysis and human-like conversational features so it provides personalized responses, taking into account detected emotions, conversation history and analysis on query<br></p>
+                                    <p class="portfolio_text">Implemented face tracking, facial emotional recognition and animation in response to user queries for optimal engagement<br></p>
+                                </div>
+                                <a href="https://github.com/ritikam1234/Cozmo-AI-Therapist" class="button button--flex button--small portfolio__button">
+                                    Github Link
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
                             </div>
                         </div>
 
                         <!--PROJECT 3-->
                         <div class="swiper-slide">
                             <div class="portfolio_">
+                                <h3 class="portfolio__title">Introduction to Computer Systems</h3>
+                                <p class="section__subtitle">15213 Labs Spring 2023</p>
+                                <p class="portfolio__description">Malloc lab: Implemented a dynamic memory allocator using segregated lists that supports malloc, free, calloc and realloc function calls
+                                    <br><br>Cache Lab: Implemented a cache simulator
+                                    <br><br>Attack Lab: Exploited buffer overflow attacks using code injection attacks and return-oriented programming attacks
+                                    <br><br>Shell Lab: Implemented unix shell with job control and fg, bg commands using control, signals, and signal handling techniques     
+                                    <br><br>Proxy Lab: Implemented a concurrent HTTP proxy utilizing caches
+                                    <br><br> <h4><i>Language: C</i></h4>
+                                    </p>
+                            </div>
+                        </div>
+
+                        <!--PROJECT 4-->
+                        <div class="swiper-slide">
+                            <div class="portfolio_">
                                 <h3 class="portfolio__title">Langchain GPT-3 Clone</h3>
+                                <p class="portfolio__description">INFO</p>
+                            </div>
+                        </div>
+                        
+                        <!--PROJECT 5-->
+                        <div class="swiper-slide">
+                            <div class="portfolio_">
+                                <h3 class="portfolio__title">Fundamentals of Programming and Computer Science Term Project</h3>
                                 <p class="portfolio__description">INFO.</p>
                             </div>
                         </div>
-                        ...
                         </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
+
                     
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev"></div>
@@ -141,42 +174,113 @@
             
             <!--==================== EXPERIENCE ====================-->
     <section id="experience" class="experience">
-        <h3 class="experience-title">Experience</h3>
+        <h1 class="section__title">Experience</h1>
+        <span class="section__subtitle">My Experiences</span>
+        
         <div class="container">
-  
-          <!-- Latest Experience -->
+
+        <!-- First Experience -->
+          <div class="card">
+            <h3 class="title-role">15-110 Principles of Computing TA, Carnegie Mellon University</h3>
+              <div class="card-content">
+              <ul>
+                <li>
+                    Led Recitations and guided students on work
+                </li>
+                <li>
+                    Led office hours
+                </li>
+                <li> Led Practice Sessions and review sessions </li>
+              </ul>
+            </div>
+            <div class="card-action">
+                <span>Aug 2023 - | Pittsburgh, USA</span>
+            </div>
+          </div>
+          <!-- Second Experience -->
           <div class="card">
             <h3 class="title-role">AI & ML Intern, Stratifi</h3>
               <div class="card-content">
               <ul>
                 <li>
-                  Developed and managed the backend of an e-commerce platform using Flask, MongoDB, and AWS.
+                    Developed a financial advisor chatbot using the LangChain framework and GPT language model, enabling personalized financial guidance and recommendations for StratiFi’s clients
                 </li>
                 <li>
-                  Worked on three web applications targeting customers, selling vendors, and admin users; built 50+ RESTful APIs with functionalities
-  such as login/sign up, view a product, add a product to cart, checkout the order, etc.
+                    Created data analysis and code understanding agents with vector databases such as ChromaDB and Deeplake to analyze financial data and provide actionable insights
                 </li>
-                <li>Improved the response time by 20% by refactoring the codebase and changing database design and queries.</li>
-                <li>Added a bulk upload feature which reduced the manual work of adding products into a database.</li>
+                <li>Implemented intent analyzing and verification features using prompt engineering & memory to enable smoother user experience & more accurate responses from chatbot</li>
                 <li>
-                  <b>Tools:</b> Python, Langchain, MongoDB
+                  <b>Tools:</b> Python, Langchain, Deeplake, ChromaDB, GPT
                 </li>
               </ul>
             </div>
             <div class="card-action">
-                <span>July 2020 - Nov 2020 | Hyderabad, India</span>
+                <span>May 2023 - July 2023 | California, USA</span>
             </div>
           </div>
-        
+
+          <!-- Third Experience -->
+          <div class="card">
+            <h3 class="title-role">Undergraduate Research Apprenticeship, Carnegie Mellon University</h3>
+              <div class="card-content">
+              <ul>
+                <li>
+                    Investigated potential compounds that inhibit function of TMK enzymes in pathogenic fungi
+                </li>
+                <li>
+                    Created 2D and 3D renderings of enzyme and potential compounds using Pymol and Marvin Sketch, refined a subset of docked structures for further study through AutoDock Vina.
+                </li>
+                <li>Operated NAMD/VMD (molecular dynamics software) to produce lowest energy structures, evaluated docked structure and protein-ligand interactions using LigPlot+</li>
+                <li>
+                  <b>Tools:</b> Python, NAMD/VMD, LigPlot+
+                </li>
+              </ul>
+            </div>
+            <div class="card-action">
+                <span>May 2022 - August 2022 | Pittsburgh, USA</span>
+            </div>
+          </div>
+
         </div>
 
       </section>
+
+
+
+  <!-- ======= Start Contact Section ======= -->
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h3 class="experience-title">Contact</h3>
+      <div class="row">
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3 style="color:white;">Social Profiles</h3>
+            <div class="social-links">
+              <a href="mailto:ritika03mehta@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+              <a href="https://www.linkedin.com/in/rm-ritika-mehta/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://github.com/ritikam1234" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3 style="color:white;">E&#8209;mail</h3>
+            <a href="mailto:ritika03mehta@gmail.com" target="_blank"> <p><i class="icofont-rounded-right"></i> ritika03mehta@gmail.com</p> </a>
+            <a href="mailto:ritikam@andrew.cmu.edu" target="_blank"> <p><i class="icofont-rounded-right"></i> ritikam@andrew.cmu.edu</p> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
         </main>
         <!--==================== TYPED JS ====================-->
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         <script>
             var typed = new Typed('#element', {
-              strings: ['Student', 'Software Engineer', 'AI Developer' ],
+              strings: ['Student', 'Computational Neuroscience Major', 'AI developer' ],
               typeSpeed: 50,
               loop: true,
             });
@@ -214,5 +318,6 @@
     </body>
 
     <footer>
+
     </footer>
 </html>

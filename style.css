@@ -138,7 +138,7 @@ nav ul li a:hover {
   }
   
   .about__info-name {
-    font-size: 0.813rem;
+    font-size: 1.0rem;
   }
   
   .about__info-title,
@@ -152,9 +152,15 @@ nav ul li a:hover {
     justify-content: center;
   }
 
+  .project__section {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    height: 800px;
+  }
 
 .portfolio__img {
     width: 320px;
+    max-height: 250px;
     border-radius: 0.5rem;
     justify-self: center;
   }
@@ -163,14 +169,23 @@ nav ul li a:hover {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
   }
-  
-.portfolio__description {
-    margin-bottom: 0.75rem;
+
+  .portfolio__description {
+    text-align: justify;
+    line-height: 1.5rem;
+    margin: auto 150px;
+
+
+  }
+  .portfolio_text {
+    text-align:justify;
+    width:500px;
+    margin: 1.2rem auto;
   }
 
 .swiper {
-    width: 600px;
-    height: 350px;
+    width: 800px;
+    height: 600px;
   }
 
 .swiper-wrapper {
@@ -199,35 +214,32 @@ nav ul li a:hover {
     left: -0.5rem;
   }
 
-
-.portfolio__title {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-.portfolio__description {
-    margin-bottom: 0.75rem;
-  }
-
 .button__icon {
     font-size: 1.2rem;
     margin-left: 0.5rem;
     transition: 0.3s;
   }
 
-
+/* Experience Styles */
+.experience {
+    margin-bottom:1.5rem;
+    margin-top:3.5rem;
+    height: 1100px;
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem;
+}
 .experience-title{
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     text-align: center;
 
 }
 
 .container {
     width: 860px;
+    margin-top: 1.5rem;
     margin: 20px auto;
     position: center;
-    top: 64px;
     
 }
 
@@ -270,7 +282,7 @@ a.hoverline {
   }
 
 a.hoverline:hover {
-    border-bottom: 3px solid red !important;
+    border-bottom: 3px solid #F7C9B6 !important;
 }
 
 
@@ -292,3 +304,65 @@ a.hoverline:hover {
     font-size: 13px;
 }
 
+.contact {
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem;
+}
+.contact .info-box {
+    color: #444444;
+    padding: 20px;
+    width: 100%;
+    background: #F7C9B6;
+  }
+  
+  .contact .info-box i.bx {
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 12px;
+    float: left;
+    margin-right: 10px;
+    background: #C59894;
+  }
+  
+  .contact .info-box img {
+    border-radius: 50%;
+    padding: 14px;
+    float: left;
+    width: 84%;
+    background: #C59894;
+  }
+  
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0 8px 68px;
+  }
+  
+  .contact .info-box p {
+    padding: 0;
+    color: #fff;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 0 68px;
+  }
+  
+  .contact .info-box .social-links {
+    margin: 5px 0 0 68px;
+    display: flex;
+  }
+  
+  .contact .info-box .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    transition: 0.3s;
+  }
+  
+  .contact .info-box .social-links a:hover {
+    color: white;
+  }
+
+  
