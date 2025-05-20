@@ -365,4 +365,7 @@ a.hoverline:hover {
     color: white;
   }
 
+  .nav__list a.active-link {
+    border-bottom: 2px solid white;
+  }
   
