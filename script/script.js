@@ -5,15 +5,16 @@ const swiper = new Swiper('.swiper', {
   spaceBetween: 30,
   effect: "coverflow",
   coverflowEffect: {
-    rotate: 30,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
+    rotate: 50,
+    stretch: 10,
+    depth: 150,
+    modifier: 1.5,
     slideShadows: true,
   },
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
+    dynamicBullets: true,
   },
   navigation: {
     nextEl: '.swiper-button-next',

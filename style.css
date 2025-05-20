@@ -369,3 +369,37 @@ a.hoverline:hover {
     border-bottom: 2px solid white;
   }
   
+  .swiper-button-next, .swiper-button-prev {
+    color: white;
+    font-size: 2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    background-color: rgba(197, 152, 148, 0.7);
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    transform: scale(1.3);
+    background-color: #fff;
+    color: #C59894;
+}
+
+.github-link {
+  color: #C59894;
+  font-weight: 600;
+  border: 2px solid #C59894;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.github-link:hover {
+  background-color: #C59894;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
